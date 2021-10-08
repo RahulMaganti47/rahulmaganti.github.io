@@ -1,2 +1,2 @@
 # rahulmaganti.github.io 
-Blog about various computer science, vc, crypto, and me. 
+Blog about cool things in computer science, vc, and crypto. 
