@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" fill="none">
+  <rect width="240" height="180" fill="#f1f0ea"/>
+  <g stroke="#17171a" stroke-width="1" opacity=".25">
+    <rect x="31" y="39" width="51" height="18" rx="3"/>
+    <rect x="31" y="66" width="76" height="18" rx="3"/>
+    <rect x="31" y="93" width="35" height="18" rx="3"/>
+    <rect x="31" y="120" width="63" height="18" rx="3"/>
+  </g>
+  <g fill="#3b3fb0">
+    <rect x="31" y="39" width="38" height="18" rx="3" opacity=".45"/>
+    <rect x="31" y="66" width="68" height="18" rx="3" opacity=".8"/>
+    <rect x="31" y="93" width="24" height="18" rx="3" opacity=".32"/>
+    <rect x="31" y="120" width="51" height="18" rx="3" opacity=".62"/>
+  </g>
+  <path d="M119 49C139 49 139 46 155 46" stroke="#17171a" stroke-width="1.1" stroke-dasharray="3 4" opacity=".42"/>
+  <path d="M119 76C139 76 139 76 155 76" stroke="#17171a" stroke-width="1.1" stroke-dasharray="3 4" opacity=".42"/>
+  <path d="M119 103C139 103 139 106 155 106" stroke="#17171a" stroke-width="1.1" stroke-dasharray="3 4" opacity=".42"/>
+  <path d="M119 130C139 130 139 136 155 136" stroke="#17171a" stroke-width="1.1" stroke-dasharray="3 4" opacity=".42"/>
+  <rect x="155" y="31" width="53" height="120" rx="5" stroke="#17171a" stroke-width="1.2" opacity=".55"/>
+  <path d="M155 61H208M155 91H208M155 121H208" stroke="#17171a" stroke-width="1" opacity=".24"/>
+  <rect x="160" y="36" width="43" height="20" rx="2" fill="#3b3fb0" opacity=".8"/>
+  <rect x="160" y="66" width="43" height="20" rx="2" fill="#3b3fb0" opacity=".32"/>
+  <rect x="160" y="96" width="43" height="20" rx="2" fill="#3b3fb0" opacity=".62"/>
+  <rect x="160" y="126" width="43" height="20" rx="2" fill="#3b3fb0" opacity=".45"/>
+</svg>

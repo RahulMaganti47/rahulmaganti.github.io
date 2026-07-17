@@ -206,8 +206,19 @@ section + section { margin-top: clamp(52px, 8vw, 92px); }
 
 /* ---------- publications ---------- */
 .pubs { list-style: none; margin: 0; padding: 0; max-width: var(--measure); }
-.pub { padding: 20px 0; border-top: 1px solid var(--hairline); }
+.pub {
+  display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 14px;
+  padding: 20px 0; border-top: 1px solid var(--hairline); align-items: start;
+}
+@media (min-width: 640px) {
+  .pub { grid-template-columns: 88px minmax(0, 1fr); gap: 18px; }
+}
 .pubs .pub:last-child { border-bottom: 1px solid var(--hairline); }
+.pub__thumb {
+  width: 100%; aspect-ratio: 4 / 3; border-radius: 8px; object-fit: cover;
+  border: 1px solid var(--hairline); background: var(--surface);
+}
+.pub__body { min-width: 0; }
 .pub__title { font-family: var(--serif); font-weight: 500; font-size: 1.2rem;
   line-height: 1.25; letter-spacing: -0.01em; margin: 0 0 6px; }
 .pub__title a { text-decoration: none; color: var(--ink);
